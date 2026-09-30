@@ -9,7 +9,7 @@ def main():
     radius = int(input("enter the radius of cirle (m): "))
     #calculates area and circumference
     area = math.pi * 2 * radius
-    circumference = math.pi * (radius**2)
+    circumference = math.pi * (radius ** 2)
     #displays area and circumference
     print("the area of circle with radius {} m is {:,.2f} m2".format(radius, area))
     print(
